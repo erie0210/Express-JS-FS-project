@@ -1,0 +1,31 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "task for posicube",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --watch ./app.js",
+    "test": "jest --coverage --forceExit --verbose",
+    "lint": "eslint . --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.0",
+    "supertest": "^6.1.6",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}

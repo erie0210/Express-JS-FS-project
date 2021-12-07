@@ -1,0 +1,1 @@
+{"id":"a1b2c3","userId":"abc123","title":"example title","author":"example author","published":2000,"price":20000}
