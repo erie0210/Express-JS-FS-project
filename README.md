@@ -55,7 +55,7 @@
 - node: 17 : docker가 지원하는 node 버전 중 가장 최신 버전으로 debian 배포, full support 버전 지원.
 - 4000번 포트를 이용한다.
 ```
-### EC2
+### EC2 (현재는 서버를 내렸습니다.)
 구동 서버 주소: <br/>
 [ec2-13-125-229-75.ap-northeast-2.compute.amazonaws.com:4000](http://ec2-13-125-229-75.ap-northeast-2.compute.amazonaws.com:4000) <br/>
 
