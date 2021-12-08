@@ -1,14 +1,14 @@
-## 1. 과제상세
+## 1. 구현 기능 상세
 
 ```
 * 책 정보를 삽입한다.
- - [과제 필수 예외 처리] 중복검사: ./utils 의 isExist: 각 파일을 읽고 title과 author 정보를 비교해 이미 있다면 중복으로 처리한다.
+ - 중복검사: ./utils 의 isExist: 각 파일을 읽고 title과 author 정보를 비교해 이미 있다면 중복으로 처리한다.
  - 입력값: userId, title, author, published, price 이며 모든 요소는 required이다.
  - 글의 id는 길이 10의 hash된 random 값을 이용해 배정한다. ( crypto의 randomBytes )
  - 책 정보가 오지 않은 경우: req.body가 비어있는 경우, required 요소가 비어있는 경우 403에러 처리한다.
 
 * 책 정보를 조회한다.
- - [과제 필수 예외 처리] 정렬기능 : query로 order에 대한 정보를 받는다. 'asce': 책 이름으로 오름차순, 'desc': 책 이름으로 내림차순을 설정한다.
+ - 정렬기능 : query로 order에 대한 정보를 받는다. 'asce': 책 이름으로 오름차순, 'desc': 책 이름으로 내림차순을 설정한다.
  - ./utils 의 ascendingSort, descendingSort
 
 * 책 정보를 수정한다.
@@ -17,10 +17,10 @@
  - 정보가 다 있지 않은 경우 에러 처리한다.
 
 * 책 정보를 삭제한다. 
-  - [과제 필수 예외 처리] 제약조건(해당 책 정보 생성자 만이 삭제) : userId를 비교해 생성한 userId와 같은 경우에만 삭제가 가능하다.
+  - 제약조건(해당 책 정보 생성자 만이 삭제) : userId를 비교해 생성한 userId와 같은 경우에만 삭제가 가능하다.
   - 존재하지 않는 책일 경우 에러 처리한다.
 
-  * [과제 필수 예외 처리] 협업을 위한 API spec: swagger 로 구현. /api-docs로 접근
+  * 협업을 위한 API spec: swagger 로 구현. /api-docs로 접근
 ```
 
 ## 2. 사용기술
