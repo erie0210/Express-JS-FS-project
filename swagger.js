@@ -5,7 +5,7 @@ const options = {
   swaggerDefinition: {
     openapi: '3.0.0',
     info: {
-      title: '포지큐브 백엔드 과제',
+      title: '백엔드 swagger',
       version: '1.0.0',
       description: '',
     },
